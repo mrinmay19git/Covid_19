@@ -1,0 +1,53 @@
+--CREATE TABLE user(username TEXT  NOT NULL UNIQUE PRIMARY KEY, name TEXT NOT NULL, password TEXT NOT NULL,
+ --gender TEXT NOT NULL, location TEXT NOT NULL);
+ --INSERT INTO
+   --user(username,name,password,gender,location)
+--VALUES
+  --("usernameone","Ram","username@121","Male","kolkata1"),
+  --("usernametwo","Rom","username@122","Male","kolkata2"),
+  --("usernamethree","Rum","username@123","Male","kolkata3"),
+  --("usernamefour","Raam","username@124","Male","kolkata4"),
+  --("usernamefive","Raju","username@125","Male","kolkata5"),
+  --("usernamesix","Rahat","username@126","Male","kolkata6"),
+  --("usernameseven","Raj","username@127","Male","kolkata7"),
+  --("usernameeight","Rat","username@128","Male","kolkata8"),
+  --("usernamenine","Rak","username@129","Male","kolkata9"),
+  --("usernameten","Ral","username@192","Male","kolkata10");
+--CREATE TABLE state(state_id INTEGER  NOT NULL  PRIMARY KEY, state_name TEXT NOT NULL,
+                --population INTEGER NOT NULL);
+
+--SELECT * FROM state;
+--DROP TABLE state;
+--SELECT * FROM user;
+--INSERT INTO
+--state(state_id,state_name,population)
+--VALUES
+ -- (101,"West Bengal1",30006),
+  --(102,"West Bengal2",30007),
+  --(103,"West Bengal3",30008),
+  --(104,"West Bengal4",30009),
+  --(105,"West Bengal5",30011),
+  --(107,"West Bengal7",30012),
+  --(108,"West Bengal8",30013),
+ --(111,"West Bengal9",30014),
+  --(109,"West Bengal10",30015),
+  --(110,"West Bengal11",30016);
+  --CREATE TABLE
+   --district(district_id INTEGER NOT NULL PRIMARY KEY,district_name TEXT NOT NULL ,state_id INTEGER NOT NULL,cases INTEGER NOT NULL,cured INTEGER NOT NULL,active INTEGER NOT NULL,deaths INTEGER NOT NULL,
+   --FOREIGN KEY (state_id) REFERENCES state(state_id) ON DELETE CASCADE);
+   --INSERT INTO district (district_id, district_name, state_id, cases, cured, active, deaths)
+    --VALUES
+--(1, 'District_A', 101, 1000, 800, 180, 20),
+--(2, 'District_B', 102, 500, 480, 10, 10),
+--(3, 'District_C', 103, 2000, 1900, 50, 50),
+--(4, 'District_D', 104, 300, 290, 10, 0),
+--(5, 'District_E', 105, 800, 600, 190, 10),
+--(6, 'District_F', 107, 3000, 2800, 150, 50),
+--(7, 'District_G', 108, 100, 90, 10, 0),
+--(8, 'District_H', 111, 600, 590, 10, 0),
+--(9, 'District_I', 109, 700, 680, 20, 0),
+--(10, 'District_J', 110, 1500, 1400, 70, 30);
+ --SELECT * FROM district;
+
+   
+   
